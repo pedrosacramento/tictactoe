@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/tictactoe/static/css/main.ed2ece1f.css",
+    "main.js": "/tictactoe/static/js/main.5d7134e2.js",
+    "static/js/206.60624240.chunk.js": "/tictactoe/static/js/206.60624240.chunk.js",
+    "index.html": "/tictactoe/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.ed2ece1f.css",
+    "static/js/main.5d7134e2.js"
+  ]
+}
