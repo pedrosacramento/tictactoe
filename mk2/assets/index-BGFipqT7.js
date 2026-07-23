@@ -51,18 +51,36 @@ Error generating stack: `+c.message+`
   --segment-track-border: #1b1f23;
   --segment-stripe-light: rgba(255, 255, 255, 0.1);
   --segment-stripe-dark: rgba(255, 255, 255, 0.04);
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   flex-shrink: 0;
-  min-height: 56px;
+  min-height: calc(56px + 1.3rem);
   padding: 0.65rem 1rem;
   background: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid #e2e8f0;
   box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
   z-index: 1100;
   overflow: visible;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+.model-switcher *,
+.model-switcher *::before,
+.model-switcher *::after {
+  box-sizing: border-box;
 }
 .model-switcher__brand {
   display: flex;
